@@ -1,28 +1,36 @@
 # Content Security Policy (CSP) Checklist
 
 A beginner-friendly, pentester-focused checklist for reviewing
-Content-Security-Policy (CSP) and related HTTP security headers.
+**Content-Security-Policy (CSP)** and related HTTP security headers.
 
-## Purpose
-This repository helps new learners understand **what to check**
-during a web security assessment.
-
-## Included
+## What this covers
 - CSP directive reference
-- CSP meta tag usage
 - HTTP security headers list
+- CSP via meta tag
 - OWASP Top 10 mapping
+- Severity levels for findings
 
-⚠️ For educational and ethical testing only.
+⚠️ For **educational and ethical security testing only**.
 
-## CSP Meta Tag
+## Quick Usage
+1. Review a website’s headers with browser devtools or curl
+2. Check each header from the lists below
+3. Use severity levels to prioritize issues
+4. Map issues to OWASP Top 10 risks
 
-CSP can also be defined using a meta tag:
 
-```html
-<meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+## Full List of Security Headers Checked
 
-## Disclaimer
-
-This repository is an independent educational checklist.
-All directive and header names are industry standards.
+- Content-Security-Policy
+- Content-Security-Policy-Report-Only
+- Strict-Transport-Security
+- X-Frame-Options
+- X-Content-Type-Options
+- Referrer-Policy
+- Permissions-Policy
+- Cross-Origin-Opener-Policy
+- Cross-Origin-Embedder-Policy
+- Cross-Origin-Resource-Policy
+- CORS Response Headers
+- Cookie Security (Secure, HttpOnly, SameSite)
+- Deprecated: X-XSS-Protection, X-Webkit-CSP
