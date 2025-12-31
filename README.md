@@ -34,3 +34,11 @@ A beginner-friendly, pentester-focused checklist for reviewing
 - CORS Response Headers
 - Cookie Security (Secure, HttpOnly, SameSite)
 - Deprecated: X-XSS-Protection, X-Webkit-CSP
+
+
+## CSP Meta Tag
+
+Content Security Policy can also be defined using an HTML meta tag:
+
+```html
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';">
