@@ -14,3 +14,10 @@ during a web security assessment.
 - OWASP Top 10 mapping
 
 ⚠️ For educational and ethical testing only.
+
+## CSP Meta Tag
+
+CSP can also be defined using a meta tag:
+
+```html
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';">
