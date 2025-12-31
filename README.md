@@ -19,8 +19,9 @@ A beginner-friendly, pentester-focused checklist for reviewing
 4. Map issues to OWASP Top 10 risks
 
 
-## Full List of Security Headers Checked
+## Full Security Headers List Summary
 
+### Core Security Headers
 - Content-Security-Policy
 - Content-Security-Policy-Report-Only
 - Strict-Transport-Security
@@ -28,12 +29,29 @@ A beginner-friendly, pentester-focused checklist for reviewing
 - X-Content-Type-Options
 - Referrer-Policy
 - Permissions-Policy
+
+### Cross-Origin / Isolation Headers
 - Cross-Origin-Opener-Policy
 - Cross-Origin-Embedder-Policy
 - Cross-Origin-Resource-Policy
-- CORS Response Headers
-- Cookie Security (Secure, HttpOnly, SameSite)
-- Deprecated: X-XSS-Protection, X-Webkit-CSP
+
+### CORS Headers
+- Access-Control-Allow-Origin
+- Access-Control-Allow-Methods
+- Access-Control-Allow-Headers
+- Access-Control-Allow-Credentials
+- Access-Control-Max-Age
+
+### Cookie Security Attributes
+- Secure
+- HttpOnly
+- SameSite
+
+### Deprecated / Legacy Headers
+- X-XSS-Protection
+- X-Content-Security-Policy
+- X-Webkit-CSP
+
 
 
 ## CSP Meta Tag
