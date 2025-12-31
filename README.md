@@ -42,3 +42,10 @@ Content Security Policy can also be defined using an HTML meta tag:
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+
+
+## Bonus Tips (Real Security)
+
+- Use online tools to test your checklist against real websites
+- Compare expected headers with actual responses
+- Practice on intentionally vulnerable labs and test sites
