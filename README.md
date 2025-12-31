@@ -21,3 +21,8 @@ CSP can also be defined using a meta tag:
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+
+## Disclaimer
+
+This repository is an independent educational checklist.
+All directive and header names are industry standards.
